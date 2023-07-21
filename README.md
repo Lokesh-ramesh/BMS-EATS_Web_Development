@@ -21,11 +21,11 @@ With a diverse array of on-campus eateries and dining spots, our website is your
 
 ## Login Page
 
-![Alt Text](./screenshots/image1.png)
-_Description for Image 1_
+![Alt Text](./screenshots/sslogin.png)
 
-![Alt Text](./screenshots/image2.png)
-_Description for Image 2_
+
+![Alt Text](./screenshots/sslogin2.png)
+
 
 
 

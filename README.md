@@ -27,7 +27,7 @@ With a diverse array of on-campus eateries and dining spots, our website is your
 
 ## Technologies Used 
 - Front end -HTML,CSS,JS
-- Bckend -PHP 
+- Backend -PHP 
 
 <br>
 

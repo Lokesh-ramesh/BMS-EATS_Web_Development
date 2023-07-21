@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login_page.css">
+    <script defer src="./login_page.js"></script>
+</head>
+
+<body>
+    <div class="form-modal">
+
+        <div class="form-toggle">
+            <button id="login-toggle" onclick="toggleLogin()">log in</button>
+            <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+        </div>
+        <img src="bmscollegepic.jfif">
+
+
+        <div id="login-form">
+            <form id="login-formal">
+                <input type="text" name="username" placeholder="Enter email or username" />
+                <input type="password" name="password" placeholder="Enter password" />
+                <button type="button" value="Login" class="btn login" id="login-form-submit" onclick="login()">login</button>
+                <p><a href="javascript:void(0)" onclick="toggleSignup()">Register Account</a> </p>
+
+            </form>
+        </div>
+
+        <div id="signup-form">
+            <form>
+                <input type="email" placeholder="Enter your email" />
+                <input type="text" placeholder="Choose username" />
+                <input type="password" placeholder="Create password" />
+                <button type="button" class="btn signup"><i class="fa fa-spinner fa-pulse"></i> create account
+          </button>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

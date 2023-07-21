@@ -1,0 +1,236 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+}
+
+.topcont {
+    box-shadow: 0 8px 16px 0 rgb(224, 220, 220);
+}
+
+.topnav li {
+    padding: 16;
+    float: right;
+    font-size: x-large;
+}
+
+.topnav li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-content {
+    width: max-content;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.bar {
+    color: transparent;
+    width: 100vw;
+}
+
+.bar h1 {
+    color: white;
+}
+
+.avo-title {
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.avo-icon {
+    width: 75px;
+}
+
+
+.menuIcon {
+    border: none;
+    background-color: transparent;
+    display: none;
+    color: black;
+    margin: 14px;
+    float: right;
+}
+
+.sideBar {
+    display: none;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.8;
+    width: 50%;
+    height: 100%;
+}
+
+.sideBar ul {
+    margin: auto;
+    width: max-content;
+    list-style-type: none;
+    padding: 14px;
+}
+
+.sideBar li {
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: max-content;
+    padding: 10px;
+}
+
+.hotel_name {
+    color: gray;
+    text-size-adjust: 2px;
+    padding-top: 12px;
+    font-size: x-large;
+    float: left;
+}
+
+li button {
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.product-list1 {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+
+.products {
+    height: 387.44px;
+    margin: 5px;
+    float: left;
+    border-radius: 1.5rem;
+    border: 0.2;
+    padding: 16px;
+}
+
+.content hr {
+    margin: 0px 0px 0px 0px;
+}
+
+.products:hover {
+    box-shadow: 0 8px 8px 0 rgb(224, 221, 221);
+    border: 0.1rem solid rgb(232, 232, 232);
+}
+
+.products h2 {
+    width: max-content;
+    margin: auto;
+}
+
+.products img {
+    width: 22vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: inherit;
+    margin: auto;
+}
+
+.prices {
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+}
+
+.op {
+    margin-left: auto;
+    margin-right: 10px;
+    color: grey;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.dp {
+    margin-right: auto;
+}
+
+.content {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1040px) {
+    .product-list1 {
+        grid-template-columns: auto auto auto;
+    }
+    .products img {
+        width: 27.5vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .product-list1 {
+        grid-template-columns: auto auto;
+    }
+    .products img {
+        width: 43vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .product-list1 {
+        display: block;
+    }
+    .products {
+        display: inline-flex;
+        height: 150px;
+        width: 100%;
+        padding: 1px;
+        border-bottom: 1px grey solid;
+        margin: auto
+    }
+    .products img {
+        width: 130px;
+        height: 130px;
+        margin: auto;
+        object-fit: cover;
+    }
+    .content {
+        width: 75%;
+        margin-top: 23px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    .main-title {
+        margin-right: 0px;
+    }
+    .menuIcon {
+        display: block;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    .mySlides {
+        width: 100%
+    }
+    .topnav {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .avo-title {
+        font-size: 18px;
+    }
+    .avo-icon {
+        width: 50px
+    }
+}

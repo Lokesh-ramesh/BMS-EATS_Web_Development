@@ -1,0 +1,233 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+}
+
+.topnav li {
+    padding: 16;
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-content {
+    width: max-content;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.desc {
+    width: max-content;
+    margin: auto;
+}
+
+.bar {
+    color: transparent;
+    width: 100vw;
+}
+
+.bar h1 {
+    color: white;
+}
+
+.topcontent {
+    height: 78vh;
+    width: 100%;
+    background-image: url(./photos/food.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+.menuIcon {
+    border: none;
+    background-color: transparent;
+    display: none;
+    margin: 14px;
+    float: right;
+}
+
+.bgImage {
+    opacity: 0.5;
+    width: 100%;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.main-title {
+    float: left;
+    margin-left: 0px;
+}
+
+.avo-title {
+    float: left;
+    font-family: 'Rock Salt', cursive;
+}
+
+.avo-icon {
+    width: 75px;
+}
+
+.sideBar {
+    display: none;
+    z-index: 10;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.sideBar ul {
+    margin: auto;
+    width: max-content;
+    list-style-type: none;
+    padding: 14px;
+}
+
+.sideBar li {
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    padding: 10px;
+    color: white;
+}
+
+li button {
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.product-list {
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    margin-top: 20px;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.products {
+    height: 46vh;
+    width: 22vw;
+    margin: auto;
+    border-radius: 1.5rem;
+    border: 0.1px solid rgb(219, 214, 214);
+}
+
+.products:hover {
+    box-shadow: 0 8px 8px 0 rgb(224, 221, 221);
+    border: 0.1rem solid rgb(232, 232, 232);
+}
+
+.products h2 {
+    width: inherit;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+}
+
+.products img {
+    width: inherit;
+    height: 38vh;
+    position: relative;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0px 0px;
+}
+
+.hotel {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px) {
+    .product-list1 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .product-list {
+        display: block;
+    }
+    .products {
+        display: inline-flex;
+        height: 150px;
+        width: 100%;
+        padding: 1px;
+        margin: auto
+    }
+    .products img {
+        width: 130px;
+        height: 130px;
+        margin: auto;
+        object-fit: cover;
+    }
+    .content {
+        width: 75%;
+        margin-top: 23px;
+    }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 750px) {
+    .main-title {
+        margin-right: 0px;
+    }
+    .avo-title {
+        font-size: 18px;
+    }
+    .avo-icon {
+        width: 50px
+    }
+    .menuIcon {
+        display: block;
+    }
+    .mySlides {
+        width: 100%
+    }
+    .topnav {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .text-content {
+        font-size: 25px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
